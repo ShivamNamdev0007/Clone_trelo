@@ -61,7 +61,7 @@ function App() {
       <h1 className="text-4xl font-extrabold text-white text-center mb-5">
       TrackIt
       </h1>
-      <h4 className="text-2xl font-bold text-white text-center mb-8">Focuses on tracking tasks and progress.</h4>
+      <h4 className="text-2xl font-bold text-white text-center mb-8">Focuses on tracking tasks and progress ...</h4>
       <TrelloContext.Provider value={{ state, dispatch }}>
         <DndProvider backend={HTML5Backend}>
           <div className="flex justify-around gap-8">
